@@ -43,6 +43,7 @@ public interface MemberRepository extends JpaRepository<Member, Long> {
     Optional<Member> findOptionByUsername(String username); //단건 Optional
 
 
+
     Page<Member> findByAge(int age, Pageable pageable);
 
     @Query(value = "select m from Member m left join m.team t",
