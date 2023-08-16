@@ -269,6 +269,8 @@ class MemberRepositoryTest {
 
 
 
+
+
     @Test
     public void queryHint(){
         //given
